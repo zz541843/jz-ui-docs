@@ -1,0 +1,33 @@
+{
+    "name": "jz-ui-docs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "serve": "vitepress serve docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zz541843/jz-ui-docs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zz541843/jz-ui-docs/issues"
+    },
+    "homepage": "https://github.com/zz541843/jz-ui-docs#readme",
+    "dependencies": {
+        "element-plus": "^2.2.5",
+        "jz-ep-ui": "^1.0.0",
+        "vitepress": "^1.0.0-alpha.1"
+    },
+    "devDependencies": {
+        "sass": "^1.52.3"
+    }
+}

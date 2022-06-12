@@ -5,8 +5,8 @@ export default {
     themeConfig:{
         siteTitle: 'My Custom Title',
         nav: [
-            { text: 'Guide', link: '/guide' },
-            { text: 'Configs', link: '/configs' },
+            { text: 'Guide', link: '/guide/' },
+            { text: 'Configs', link: '/configs/' },
             { text: 'Changelog', link: 'https://github.com/...' }
         ],
         socialLinks: [
@@ -17,9 +17,9 @@ export default {
         sidebar: {
             "/guide/": [
                 {
-                    text: "导航",
+                    text: "组件",
                     items: [
-                        {text: "首页",link: '/guide/'},
+                        {text: "JzCityChoose",link: '/guide/JzCityChoose'},
                         {text: "b",link: '/guide/b'},
                     ]
                 }

@@ -1,10 +1,10 @@
 import MyLayout from './Layout.vue'
-import DefaultTheme from 'vitepress/theme'
-import JzUI from '../../../dist123/jz-ui.es'
+// import DefaultTheme from 'vitepress/theme'
+// import JzUI from '../../../dist123/jz-ui.es'
 import '../../../dist123/style.css'
 import JzChooseCity from "../../../boxing/JzChooseCity.vue"
+import JzUI from "jz-ep-ui"
 export default {
-    ...DefaultTheme,
     enhanceApp({ app, router, siteData }) {
         app.component("BoxJzChooseCity",JzChooseCity)
         app.use(JzUI)
