@@ -19,8 +19,15 @@ export default {
                 {
                     text: "组件",
                     items: [
-                        {text: "JzCityChoose",link: '/guide/JzCityChoose'},
-                        {text: "b",link: '/guide/b'},
+                        {text: "JzChooseCity",link: '/guide/JzChooseCity'},
+                        {text: "JzForm",link: '/guide/JzForm'},
+                        {text: "JzMsgList",link: '/guide/JzMsgList'},
+                        {text: "JzNavMenu",link: '/guide/JzNavMenu'},
+                        {text: "JzNotification",link: '/guide/JzNotification'},
+                        {text: "JzPCASelect",link: '/guide/JzPCASelect'},
+                        {text: "JzTable",link: '/guide/JzTable'},
+                        {text: "JzTopSearch",link: '/guide/JzTopSearch'},
+                        {text: "JzUploadImage",link: '/guide/JzUploadImage'},
                     ]
                 }
             ]

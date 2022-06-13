@@ -1,29 +1,33 @@
 <template>
     <div>
         用于包装的组件
+        <nfButton>1</nfButton>
         <jz-choose-city />
-        <JzMsgList  :list-data="[{
-            title:'1',
-avatar:'1',
-time:'1',
-message:'1',
-        }]"  />
-        <JzNotification :data="brr" />
-        <jz-table :table-config="tableConfig" :list-data="listData" />
-        <JzUploadImage v-model="imgs" />
+<!--        <JzMsgList  :list-data="[{-->
+<!--            title:'1',-->
+<!--avatar:'1',-->
+<!--time:'1',-->
+<!--message:'1',-->
+<!--        }]"  />-->
+<!--        <JzNotification :data="brr" />-->
+<!--        <jz-table :table-config="tableConfig" :list-data="listData" />-->
+<!--        <JzUploadImage v-model="imgs" />-->
         <jz-form v-model="form" :form-config="formConfig" />
     </div>
 </template>
 
 <script setup lang="ts">
-import {reactive} from "vue"
-import  {type IForm} from "jz-ep-ui";
-import "./a"
+import {reactive} from "vue";
+import { type IForm} from "jz-ep-ui/dist/components";
+// import { FormType } from "jz-ep-ui/dist/components";
+import {FormType} from "jz-ep-ui/dist/jz-ui.es.js";
 
+console.log(FormType.Input);
 let form = reactive({
     Name:"",
     Age: 0,
 })
+
 let formConfig = <IForm<{Name: string,Age: number}>>{
     NativeProps:{},
     FormItemConfig: {
