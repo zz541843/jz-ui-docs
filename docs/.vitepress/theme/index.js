@@ -7,6 +7,7 @@ import BoxJzMsgList from "../../../boxing/BoxJzMsgList.vue"
 import BoxJzForm from "../../../boxing/BoxJzForm.vue"
 import BoxJzNotification from "../../../boxing/BoxJzNotification.vue"
 import BoxJzPCASelect from "../../../boxing/BoxJzPCASelect.vue"
+import BoxJzTable from "../../../boxing/BoxJzTable.vue"
 import JzUI from "jz-ep-ui"
 import "jz-ep-ui/dist/style.css"
 import path from "path"
@@ -29,6 +30,7 @@ export default {
         app.component("BoxJzForm",BoxJzForm)
         app.component("BoxJzNotification",BoxJzNotification)
         app.component("BoxJzPCASelect",BoxJzPCASelect)
+        app.component("BoxJzTable",BoxJzTable)
         app.use(JzUI)
         // app is the Vue 3 app instance from `createApp()`.
         // router is VitePress' custom router. `siteData` is

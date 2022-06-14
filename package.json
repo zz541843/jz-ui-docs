@@ -24,7 +24,7 @@
     "homepage": "https://github.com/zz541843/jz-ui-docs#readme",
     "dependencies": {
         "element-plus": "^2.2.5",
-        "jz-ep-ui": "^1.0.0",
+        "jz-ep-ui": "^1.0.1",
         "vitepress": "^1.0.0-alpha.1"
     },
     "devDependencies": {
