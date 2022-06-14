@@ -3,12 +3,8 @@
         用于包装的组件
         <nfButton>1</nfButton>
         <jz-choose-city />
-<!--        <JzMsgList  :list-data="[{-->
-<!--            title:'1',-->
-<!--avatar:'1',-->
-<!--time:'1',-->
-<!--message:'1',-->
-<!--        }]"  />-->
+
+
 <!--        <JzNotification :data="brr" />-->
 <!--        <jz-table :table-config="tableConfig" :list-data="listData" />-->
 <!--        <JzUploadImage v-model="imgs" />-->
@@ -18,9 +14,9 @@
 
 <script setup lang="ts">
 import {reactive} from "vue";
-import { type IForm} from "jz-ep-ui/dist/components";
+// import { type IForm} from "jz-ep-ui/dist/components";
 // import { FormType } from "jz-ep-ui/dist/components";
-import {FormType} from "jz-ep-ui/dist/jz-ui.es.js";
+import {FormType} from "jz-ep-ui";
 
 console.log(FormType.Input);
 let form = reactive({
@@ -28,7 +24,7 @@ let form = reactive({
     Age: 0,
 })
 
-let formConfig = <IForm<{Name: string,Age: number}>>{
+let formConfig =  {
     NativeProps:{},
     FormItemConfig: {
         labelWidth: "200px"

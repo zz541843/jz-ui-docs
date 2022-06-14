@@ -1,1 +1,1 @@
-JzCityChoose
+<BoxJzChooseCity />

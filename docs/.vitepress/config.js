@@ -19,6 +19,7 @@ export default {
                 {
                     text: "组件",
                     items: [
+                        {text: "JzCalendar",link: '/guide/JzCalendar'},
                         {text: "JzChooseCity",link: '/guide/JzChooseCity'},
                         {text: "JzForm",link: '/guide/JzForm'},
                         {text: "JzMsgList",link: '/guide/JzMsgList'},
